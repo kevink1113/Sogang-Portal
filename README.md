@@ -1,4 +1,4 @@
-![게시판](https://github.com/kevink1113/Sogang-Portal/assets/48401272/4d395416-064c-493a-8a3b-4e11056b6726)# Sogang-Portal
+# Sogang-Portal
 
 # 프로젝트 개요
 
@@ -80,6 +80,8 @@ Sogang Portal
 4. 데이터베이스 정규화와 다른 최적화 알고리즘, 시스템 디자인들을 통해 안정성을 높이면서도 빠른 앱을 개발하여 기존 어플리케이션을 완전히 대체할 수 있도록 개발 목표를 설정한다.
 
 - 프로젝트 성과
+
+
   ![서강링크_메인](https://github.com/kevink1113/Sogang-Portal/assets/48401272/7c7096b0-29e5-460b-8f6e-701108a2ef14)
   ![시간표_시연](https://github.com/kevink1113/Sogang-Portal/assets/48401272/494f990e-fd8e-4dd4-b15c-02bff5c95378)
   ![게시판](https://github.com/kevink1113/Sogang-Portal/assets/48401272/13606fd5-7081-4674-bbc6-c868177966fc)
