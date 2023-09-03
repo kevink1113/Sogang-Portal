@@ -63,14 +63,14 @@ Sogang Portal
 - 프로젝트 성과
 
 
-  ![서강링크_메인](https://github.com/kevink1113/Sogang-Portal/assets/48401272/7c7096b0-29e5-460b-8f6e-701108a2ef14)
-  ![시간표_시연](https://github.com/kevink1113/Sogang-Portal/assets/48401272/494f990e-fd8e-4dd4-b15c-02bff5c95378)
-  ![게시판](https://github.com/kevink1113/Sogang-Portal/assets/48401272/13606fd5-7081-4674-bbc6-c868177966fc)
-  ![메인로딩](https://github.com/kevink1113/Sogang-Portal/assets/48401272/0e24f6e5-1f28-4ae7-bda7-e9ee46b7ccee)
-  ![기능들](https://github.com/kevink1113/Sogang-Portal/assets/48401272/dec3c7a7-51af-44b6-a48c-31c16cc1c706)
-  ![FA](https://github.com/kevink1113/Sogang-Portal/assets/48401272/f2ce3a73-1311-40d5-924a-059afbc59724)
-  ![서강대](https://github.com/kevink1113/Sogang-Portal/assets/48401272/5c3d6ca0-f503-420e-bbfb-2ddea9b6c7d1)
-  ![멀티코어](https://github.com/kevink1113/Sogang-Portal/assets/48401272/ba315e02-6ba6-4eac-a6ec-f6e9567687b0)
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/7c7096b0-29e5-460b-8f6e-701108a2ef14">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/494f990e-fd8e-4dd4-b15c-02bff5c95378">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/13606fd5-7081-4674-bbc6-c868177966fc">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/0e24f6e5-1f28-4ae7-bda7-e9ee46b7ccee">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/dec3c7a7-51af-44b6-a48c-31c16cc1c706">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/f2ce3a73-1311-40d5-924a-059afbc59724">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/5c3d6ca0-f503-420e-bbfb-2ddea9b6c7d1">
+  <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/ba315e02-6ba6-4eac-a6ec-f6e9567687b0">
 
 
 
@@ -260,7 +260,8 @@ Sogang Portal
      - 서버가 시작되거나 일정 시간마다 개설교과목등 서버가 가지고 있어야할 정보들을 새로 크롤링해오고 데이터베이스에 저장시키고 유저 혹은 서버에서 추가적인 정보를 저장(ex 게시물 생성)을 할때 마다 데이터베이스에 저장시킨다.
 
   3. 데이터베이스
-  <img width="637" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/1d158a2c-25dc-43e6-a387-c5a1f23faa45">
+     
+     <img width="637" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/1d158a2c-25dc-43e6-a387-c5a1f23faa45">
 
     
 
@@ -270,7 +271,8 @@ Sogang Portal
      - 각 데이터베이스에 접근이 용이하도록 메서드를 작성한다.
 
 - 시스템 또는 SW 구조
-<img width="585" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/87465015-7a7a-48fc-9bf3-a50aa2a4deef">
+    
+   <img width="585" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/87465015-7a7a-48fc-9bf3-a50aa2a4deef">
 
   
 
@@ -278,7 +280,7 @@ Sogang Portal
 
   - 서버 측에서 서강대학교 웹사이트를 크롤링한 후 데이터베이스에 저장하고, 클라이언트의 요청이 있을 시에 서버에서 필요한 정보를 전송한다. 위 일련의 작업은 Django를 통해 구현되었으며, 데이터베이스는 SQLite를 통해 구현되었다. 즉 대부분의 백엔드 작업(크롤링, 어플리케이션 로직, 서버/클라이언트 간 통신)은 모두 Django를 통해 구현되어 있다.
 
-![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/f4824838-c5fd-46f9-bf0c-7f309cdb642d)
+   ![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/f4824838-c5fd-46f9-bf0c-7f309cdb642d)
 
   
 
@@ -287,7 +289,7 @@ Sogang Portal
   - UI/UX는 Figma로 시제작 후, TailwindCSS를 통해 css html 코드로 만들어, 반응형 웹으로 사용할 수 있게 하였다. 여기에 Django의 html 템플릿 코드 기능을 사용하여 앱의 각각의 기능들을 사용자 화면에 링크해주었다. 위에서 구현한 기능들을 AWS EC2를 통해 실제 서버에서 실행시킬 수 있도록 하였다.
 
   - Sogang GPT 개발 관련
-<img width="339" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/3b302300-fc15-4a54-aad4-365d558115a3">
+   <img width="339" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/3b302300-fc15-4a54-aad4-365d558115a3">
 
   기존 OpenAI의 ChatGPT API는 유료 계정까지도 프롬포트 입력 길이, 횟수가 제한되어 있기에 요람 등 800페이지가 넘는 자료를 해당 API를 통해 한번에 학습시키는 것은 불능에 가까웠으며, 결과의 신뢰성 또한 보장하지 못하였다. 이에 LlamaIndex를 이용하여 PDF 파일, 이미지 등의 학교 자료를 학습시켜 natural-language query로 학습시킨 결과 노드 인덱스를 얻는다. 
 
@@ -372,16 +374,18 @@ Sogang Portal
     SAINT 사이트에서 쿠키를 받아와서 하면 세션이 만료가 되지 않지만, 사이버 캠퍼스같은 경우에는 세션이 하루 안에 만료가 되어 유저가 하루마다 다시 접속을 해줘야하는 문제가 있다. 이를 해결하기 위해 비밀번호를 받는 등 여러가지 방법이 고려되었으나 멘토링 결과 정보통신법에 위반될 가능성이 있어 비밀번호를 받지 않는 방향으로 진행하였다. 
 
     따라서 비밀번호를 저장하지 않으면서 세션을 유지하기 위해서는 서버에 쿠키를 저장해두고 그 쿠키를 이용하여 세션이 만료될 때 마다 세션을 연장시켜주는 방식을 채택하여 진행하였다. 
-  <img width="582" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/b8adc7f2-3fb4-4ac4-8e5a-a1f0ca0bb377">
+    
+    <img width="582" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/b8adc7f2-3fb4-4ac4-8e5a-a1f0ca0bb377">
 
     
 
   - 개설교과목 Crawling 작업
 
     개설교과목 정보에 대해서는 서강대학교가 SAP 웹 디렉프로 (Web Dynpro) 프레임워크를 사용하여 개발하였다. 이 프레임워크는 웹 브라우저에서 사용자 인터페이스를 제공하고, 백엔드 시스템과 통신하여 데이터를 처리하고 표시하는 기능을 제공한다. 서버가 각 검색에 독립적인 아이디 값을 할당하여 식별하고, 이에 대해 검색 요청 결과를 반환하기에 동적인 웹 페이지를 처리하는 데 유용한 Selenium 라이브러리를 사용할 수밖에 없었다. 
-    ![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/b5c643a1-5a85-4f74-a3d5-6e8f08804245)
+
+    <img width="200" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/b5c643a1-5a85-4f74-a3d5-6e8f08804245">
     Selenium
-  ![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/4f582512-906e-45d7-8a81-7fc60b841246)
+    <img width="200" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/4f582512-906e-45d7-8a81-7fc60b841246">
     Python Requests
     
 
@@ -390,9 +394,13 @@ Sogang Portal
     그러나 Selenium은 requests 라이브러리와 다르게 실제 가상 웹 브라우저를 띄워 실행하기 때문에 자동화 작업이 request보다는 느리고, 브라우저를 제어하기 위해 시스템 리소스를 고모한다는 단점이 있었다. 이에 DB의 핵심 축을 담당하는 Takes relation의 정보 입출력이 시간 소모적일 수 있다는 우려가 있었으나, 이는 모든 학생들이 공통의 개설교과목 풀을 사용하고, 교과목 정보가 매시간 업데이트가 일어나지 않는 정보이므로 사용자 로그인, 세션 이벤트와 async하게 처리할 수 있었다. Selenium을 통한 개설교과목 정보 크롤링은 1일에 한 번 업데이트를 하는 방향으로 하였고, Python의 BackgroundScheduler을 사용해 이러한 반복 작업 처리를 다뤘다. 
 
     이수, 시간표 등 DB 관련 정보들과 함께 업데이트 되도록 한다는 문제를 해결하기 위해 데이터베이스 트랜잭션을 이용한 처리 방식을 도입하였다. 크롤링 결과를 받아와 이를 기존 DB와 비교하여 업데이트를 진행하는 과정에서 이를 하나의 트랜잭션으로 처리하였으며, 이 과정에서 문제가 발생할 경우 트랜잭션 롤백을 통해 이전 상태로 되돌릴 수 있도록 하였다. 이를 통해 교과목 정보 업데이트 과정에서 DB의 일관성을 유지할 수 있었다.
-<img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/d8c44141-b2c7-4688-823c-f4a4392413fc">
+
+
+    <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/d8c44141-b2c7-4688-823c-f4a4392413fc">
+    
     자동화된 Selenium 크롤링 과정
-<img width="566" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/3476d9c6-468a-4d81-9966-1fe073d72163">
+    <img width="566" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/3476d9c6-468a-4d81-9966-1fe073d72163">
+
     동적 페이지 크롤링 코드 일부
 
   - 게시판 관련 이슈
@@ -525,7 +533,7 @@ Sogang Portal
   또한 기존 사이트가 일정 확률로 검색 실패 / 세션 만료 오류가 나는 문제도 해결하였다. 
 
 - 모바일 학생증 실사용 검증: 열람실, 도서관 사용
-<img width="383" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/6ecf6bc0-d2ba-4366-a46e-456d2f0df409">
+   <img width="383" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/6ecf6bc0-d2ba-4366-a46e-456d2f0df409">
 
   ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2027.png)
 
@@ -556,12 +564,10 @@ Sogang Portal
 
   - 기존 ChatGPT와의 학교 관련 질문 차이: 아래 예시와 같이 ChatGPT는 “서강대학교의 FA 규정”이라 명시하여도 엉뚱한 대답을 내놓는 것을 볼 수 있다.
 
-<img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/61b89a16-ca45-4d06-9f2a-23cb895fd212">
+   <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/61b89a16-ca45-4d06-9f2a-23cb895fd212">
 
-  ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2031.png)
-![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/be1edad5-59b8-4fc7-87f3-b4cbb0b125b4)
+   <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/be1edad5-59b8-4fc7-87f3-b4cbb0b125b4">
 
-  ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2032.png)
 
   - 답변 평균 속도 측정, GPT-4와의 비교 (2023.6.17, ChatGPT May 24 Version 기준)
     5가지 동일 질문 하, 답변 소요 평균 시간을 측정하였을 때 ChatGPT는 평균 10.83초, Sogang GPT는 3.81초가 소요되었다.
