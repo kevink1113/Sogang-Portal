@@ -11,23 +11,6 @@ Sogang Portal
 ## 프로젝트 설명
 평소에 학교 앱들을 사용하며 늦은 응답시간과 불편하고 제한적인 기능으로 불편함을 느끼고 있었던 서강대학교 학생들에게 편리하고 확장적인 기능을 제공함으로써 좀 더 윤택한 학교생활을 보낼 수 있을 것이라고 생각된다.
 
-
-# 팀 소개
-##  SSS단
-
-| 역할                    | 이름  | 개발 내용 |
-|-----------------------|-----|-------|
-| 팀장, 프론트·백엔드 총괄        | 강상원 | -     |
-| 팀원, 데이터베이스 관리·이미지 디자인 | 임형진 | -     |
-| 팀원, 프론트엔드·UI/UX       | 황성민 | -     |
-
-## 지도교수 및 멘토
-
-| 역할   | 이름      | 소속    |
-|------|---------|-------|
-| 지도교수 | 정영민 교수님 | 서강대학교 |
-| 멘토   | -       | -     |
-
 # 프로젝트 구조
 
 ![](http://cscp2.sogang.ac.kr/CSE4186/CSE4186/UserData/Flow_chart.png)
@@ -43,8 +26,6 @@ Sogang Portal
 
 
 
-
-# SSS단 완료보고서
 
 ## 1. 개요
 
@@ -92,14 +73,6 @@ Sogang Portal
   ![멀티코어](https://github.com/kevink1113/Sogang-Portal/assets/48401272/ba315e02-6ba6-4eac-a6ec-f6e9567687b0)
 
 
-
-  ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%201.png)
-
-  ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%202.png)
-
-  ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%203.png)
-
-  ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%204.png)
 
    위의 목표들을 모두 이루기 위해서는 웹 앱으로 개발하는 것이 가장 효과적일 것이라 생각하여, 웹 앱의 형식으로 개발되었다. 위의 목표를 구현하기 위해 각각의 기능들에 대해 여러 방법들을 사용하여 독립적으로 개발하였으나, 각 기능이 유기적으로 동작할 수 있도록 개발하였다. 따라서 앱의 안정성이 향상되었고, 속도 면에서도 기존 공식 어플리케이션에서 2~3초의 로딩 시간이 필요한 부분들도 모두 사용자가 알아차리기 힘든 만큼 빠른 속도로 로딩되며, UI/UX 또한 여러 기능이 한 눈에 들어오도록 디자인 되었다. 
 
@@ -289,7 +262,7 @@ Sogang Portal
   3. 데이터베이스
   <img width="637" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/1d158a2c-25dc-43e6-a387-c5a1f23faa45">
 
-     ![Database diagram](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%205.png)
+    
 
      Database diagram
 
@@ -299,7 +272,7 @@ Sogang Portal
 - 시스템 또는 SW 구조
 <img width="585" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/87465015-7a7a-48fc-9bf3-a50aa2a4deef">
 
-  ![프로젝트 구조도](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%206.png)
+  
 
   프로젝트 구조도
 
@@ -307,7 +280,7 @@ Sogang Portal
 
 ![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/f4824838-c5fd-46f9-bf0c-7f309cdb642d)
 
-  ![Figma 디자인 초안](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%207.png)
+  
 
   Figma 디자인 초안
 
@@ -323,7 +296,7 @@ Sogang Portal
   각 사용자마다 접속할 때 서로 다른 채팅이 열려 독자성 확보 / 개인정보 침해 문제를 미연에 방지하였다. 
   <img width="416" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/f94526a9-b4e3-458b-8da8-8ded991c9c20">
 
-  ![학습을 통해 Generate한 Node Index 일부](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%209.png)
+  
 
   학습을 통해 Generate한 Node Index 일부
 
@@ -401,33 +374,25 @@ Sogang Portal
     따라서 비밀번호를 저장하지 않으면서 세션을 유지하기 위해서는 서버에 쿠키를 저장해두고 그 쿠키를 이용하여 세션이 만료될 때 마다 세션을 연장시켜주는 방식을 채택하여 진행하였다. 
   <img width="582" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/b8adc7f2-3fb4-4ac4-8e5a-a1f0ca0bb377">
 
-    ![Untitled](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2010.png)
+    
 
   - 개설교과목 Crawling 작업
 
     개설교과목 정보에 대해서는 서강대학교가 SAP 웹 디렉프로 (Web Dynpro) 프레임워크를 사용하여 개발하였다. 이 프레임워크는 웹 브라우저에서 사용자 인터페이스를 제공하고, 백엔드 시스템과 통신하여 데이터를 처리하고 표시하는 기능을 제공한다. 서버가 각 검색에 독립적인 아이디 값을 할당하여 식별하고, 이에 대해 검색 요청 결과를 반환하기에 동적인 웹 페이지를 처리하는 데 유용한 Selenium 라이브러리를 사용할 수밖에 없었다. 
     ![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/b5c643a1-5a85-4f74-a3d5-6e8f08804245)
-
-    ![Selenium](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2011.png)
-
     Selenium
   ![image](https://github.com/kevink1113/Sogang-Portal/assets/48401272/4f582512-906e-45d7-8a81-7fc60b841246)
-
-    ![Python Requests](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2012.png)
-
     Python Requests
+    
+
+
 
     그러나 Selenium은 requests 라이브러리와 다르게 실제 가상 웹 브라우저를 띄워 실행하기 때문에 자동화 작업이 request보다는 느리고, 브라우저를 제어하기 위해 시스템 리소스를 고모한다는 단점이 있었다. 이에 DB의 핵심 축을 담당하는 Takes relation의 정보 입출력이 시간 소모적일 수 있다는 우려가 있었으나, 이는 모든 학생들이 공통의 개설교과목 풀을 사용하고, 교과목 정보가 매시간 업데이트가 일어나지 않는 정보이므로 사용자 로그인, 세션 이벤트와 async하게 처리할 수 있었다. Selenium을 통한 개설교과목 정보 크롤링은 1일에 한 번 업데이트를 하는 방향으로 하였고, Python의 BackgroundScheduler을 사용해 이러한 반복 작업 처리를 다뤘다. 
 
     이수, 시간표 등 DB 관련 정보들과 함께 업데이트 되도록 한다는 문제를 해결하기 위해 데이터베이스 트랜잭션을 이용한 처리 방식을 도입하였다. 크롤링 결과를 받아와 이를 기존 DB와 비교하여 업데이트를 진행하는 과정에서 이를 하나의 트랜잭션으로 처리하였으며, 이 과정에서 문제가 발생할 경우 트랜잭션 롤백을 통해 이전 상태로 되돌릴 수 있도록 하였다. 이를 통해 교과목 정보 업데이트 과정에서 DB의 일관성을 유지할 수 있었다.
 <img width="387" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/d8c44141-b2c7-4688-823c-f4a4392413fc">
-    ![자동화된 Selenium 크롤링 과정](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2013.png)
-
     자동화된 Selenium 크롤링 과정
 <img width="566" alt="image" src="https://github.com/kevink1113/Sogang-Portal/assets/48401272/3476d9c6-468a-4d81-9966-1fe073d72163">
-
-    ![동적 페이지 크롤링 코드 일부](SSS%E1%84%83%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%85%E1%85%AD%E1%84%87%E1%85%A9%E1%84%80%E1%85%A9%E1%84%89%E1%85%A5%20772ff566afbd4db1a8c02ed775c2ba54/Untitled%2014.png)
-
     동적 페이지 크롤링 코드 일부
 
   - 게시판 관련 이슈
