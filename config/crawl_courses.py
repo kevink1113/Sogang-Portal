@@ -125,8 +125,8 @@ def crawl_courses(year, semester):
         driver.find_element(By.XPATH, r'//*[@id="WD80"]').click()
         # 검색 클릭
         sleep(1.5)
-        driver.find_element(By.XPATH, r'//*[@id="WDB4"]').click()
-        contentTable = '//*[@id="WDB8-contentTBody"]/tr[3]'
+        driver.find_element(By.XPATH, r'//*[@id="WDBC"]').click()
+        contentTable = '//*[@id="WDC0-contentTBody"]/tr[3]'
         print('Resource fetching...')
         element = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, contentTable)))
         print('Resource fetching done')
@@ -152,31 +152,41 @@ def lxmlToDataframe(html):
     @param html: 크롤링한 html
     @return: 스크래핑한 데이터 DataFrame
     """
+    from bs4 import BeautifulSoup
+    import pandas as pd
+
     soup = BeautifulSoup(html, 'lxml')
-    res = soup.find("tbody", id='WDB8-contentTBody')
+    res = soup.find("tbody", id='WDC0-contentTBody')
+    if not res:  # res가 None인 경우 처리
+        print("No data found in the specified tbody id")
+        return pd.DataFrame()  # 빈 DataFrame 반환
+
     trs = res.find_all('tr')
-    crawled_data = [[] for _ in range(26)]
+
+    # 모든 행을 순회하며 최대 열 개수 확인
+    max_columns = 0
+    for tr in trs:
+        tds = tr.find_all('td')
+        max_columns = max(max_columns, len(tds))
+
+    # 데이터를 저장할 리스트 초기화
+    crawled_data = [[] for _ in range(max_columns)]
 
     for tr in trs:
         tds = tr.find_all('td')
         for idx, td in enumerate(tds):
-            if not td.find('span') == None:
-                crawled_data[idx].append(td.find('span').text)
-            else:
-                crawled_data[idx].append(' ')
-    print('Data Length : ' + str(len(crawled_data[0])))
+            # td 안에 span이 있는 경우와 없는 경우를 처리
+            text = td.find('span').text if td.find('span') else ' '
+            crawled_data[idx].append(text)
 
-    df = pd.DataFrame()
+    # 데이터를 DataFrame으로 변환
+    df = pd.DataFrame({columns[i]: crawled_data[i] for i in range(len(columns)) if i < len(crawled_data)})
 
-    for i in range(26):
-        df[columns[i]] = crawled_data[i]
-
-    subject_ids = []
-    for i in range(len(crawled_data[0])):
-        subject_ids.append('21-2-' + crawled_data[4][i] + '-' + crawled_data[5][i])
-
+    # 과목 ID와 department 열 추가
+    subject_ids = ['21-2-' + crawled_data[4][i] + '-' + crawled_data[5][i] for i in range(len(crawled_data[0]))]
     df['subject_id'] = subject_ids
-    df['department'] = ''
+    df['department'] = ''  # department 정보가 없으므로 빈 문자열 할당
+
     return df
 
 

@@ -16,6 +16,13 @@ def crawl_notice(src):
     soup = BeautifulSoup(response.text, 'html.parser')
 
     # Find the table in the HTML
+    tables = soup.find_all('table')
+    if len(tables)  > 1:
+        table = tables[1]
+    else:
+        print("No table found")
+        return None
+
     table = soup.find_all('table')[1]
 
     # Find all rows in the table, skip the first row (header)

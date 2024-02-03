@@ -58,7 +58,7 @@
             <span class="truncate ... text-sm">[공지]2023학도 1학기 중간시험 일정 및 개방강의실 안내 ㅇㄴ마ㅣㅓㅠㄹㅁㅇ너ㅣ랑ㅍㅁㄴ러ㅏㅁㅇㄴㅍㄹ;ㅏㅁㅇㄴㄹㅍ마;ㄴ유러;ㅁㅇㄴㅍㄹㅁㅇㄴ;ㅓ롬ㄴㅇ</span>
             -->
         </div>
-
+        {% if user.is_authenticated %}
         <div class="w-full my-4 bg-white p-8 rounded-xl shadow-md flex flex-col">
             <span class="font-bold text-lg">과제 목록</span>
             <table class="table-auto">
@@ -113,6 +113,7 @@
               </tbody>
             </table>
         </div>
+        {% endif %}
 
     </div>
     <!--

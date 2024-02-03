@@ -39,7 +39,7 @@ class PasswordlessAuthBackend(ModelBackend):
         for key,value in info.items():
             take = Takes()
             print(value)
-            take.course = Course.get_course_by_id(value['course_number']+'-'+value['course_class'],231)            
+            take.course = Course.get_course_by_id(value['course_number']+'-'+value['course_class'],231)
             take.student = user
             take.real = True
             take.save()
@@ -50,13 +50,7 @@ class PasswordlessAuthBackend(ModelBackend):
                 print(i)
                 Takes.delete_takes(i)
         print(info)
-        for key,value in info.items():
-            take = Takes()
-            print(value)
-            take.course = Course.get_course_by_id(value['course_number']+'-'+value['course_class'],191)            
-            take.student = user
-            take.real = True
-            take.save()
+
         return user
 
 

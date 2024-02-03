@@ -29,7 +29,7 @@ def get_saint_cookies(id, pw):
     try:
         session = requests.session()  # 세션 생성
         response = session.post(login_url, headers=header, data=LOGIN_INFO, verify=False)
-        cookies = response.cookies  # 쿠키 값 받아오기
+        cookies = session.cookies  # 쿠키 값 받아오기
         session.close()  # 세션 닫기
         if len(cookies) == 0:
             return None

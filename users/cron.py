@@ -37,7 +37,7 @@ def get_current_courses():
         course.name = crawls['과목명'][i]
         course.semester = 231
         course.save()
-  crawls = crawl_courses('19','1')
+  # crawls = crawl_courses('19','1')
   print(crawls)
   if crawls is not None :
     for i in range(len(crawls)) :
@@ -89,8 +89,8 @@ def get_current_courses():
 
 
 def run():
-    # get_current_courses()
-    # sched = BackgroundScheduler()
-    # sched.add_job(get_current_courses,'interval', seconds=300000, id='test')
-    # sched.start()
+    get_current_courses()
+    sched = BackgroundScheduler()
+    sched.add_job(get_current_courses,'interval', seconds=300000, id='test')
+    sched.start()
     pass
